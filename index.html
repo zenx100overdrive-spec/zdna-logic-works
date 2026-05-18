@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-44G9RV21G4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-44G9RV21G4');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZDNA Logic Works</title>
+<style>
+:root{
+  --bg:#050505;--surface:#141414;--surface-2:#1c1c1c;--surface-hover:#222222;
+  --border:#2a2a2a;--border-light:#383838;
+  --text:#e4e4e7;--muted:#a1a1aa;--accent:#A855F7;
+  --radius:10px;--font:system-ui,"Segoe UI",sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:var(--font);background:var(--bg);color:var(--text);
+  min-height:100vh;line-height:1.55;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:2rem 1.25rem 3rem}
+.signboard{
+  text-align:center;padding:1.5rem 0 2.25rem;
+  border-bottom:1px solid var(--border);margin-bottom:2.25rem;
+}
+.signboard-img{max-width:min(480px,92vw);width:100%;height:auto;display:block;margin:0 auto}
+.grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,background .2s;
+}
+.card:hover{border-color:var(--border-light);background:var(--surface-hover)}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:#0a0a0a}
+.card-body{padding:1.1rem 1.15rem 1.2rem;flex:1;display:flex;flex-direction:column}
+.card h2{font-size:1rem;margin-bottom:.4rem;font-weight:600;letter-spacing:.02em}
+.card p{font-size:.84rem;color:var(--muted);flex:1;margin-bottom:.95rem;line-height:1.5}
+.actions{display:flex;flex-direction:column;gap:.45rem}
+.btn{
+  display:block;text-align:center;text-decoration:none;padding:.6rem 1rem;
+  border-radius:8px;font-size:.8rem;font-weight:500;letter-spacing:.03em;
+  background:var(--surface-2);color:var(--text);border:1px solid var(--border);
+  transition:border-color .15s,color .15s;
+}
+.btn:hover{border-color:var(--accent)}
+.btn-note{background:transparent;color:var(--muted)}
+.btn-note:hover{color:var(--text)}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="signboard">
+      <img src="/assets/brand/zdna-signboard.png?v=2" alt="ZDNA Logic Works" class="signboard-img" width="480" height="160">
+    </header>
+    <main class="grid"><article class="card" id="product-z-ear-v10">
+  <img src="/assets/icons/z-ear-v10.jpg" alt="Z-Ear V1.0" loading="lazy">
+  <div class="card-body">
+    <h2>Z-Ear V1.0</h2>
+    <p>高精度ロジック駆動オーディオツール</p>
+    <div class="actions">
+      <a class="btn btn-free" href="https://booth.pm/ja/items/z-ear-v10" target="_blank" rel="noopener">手に入れる</a>
+      <a class="btn btn-note" href="https://note.com/zdna_logic_works/n/dummy" target="_blank" rel="noopener">noteで鍵を入手</a>
+    </div>
+  </div>
+</article>
+<article class="card" id="product-z-ear-v44">
+  <img src="/assets/icons/z-ear-v44.png" alt="Z-Ear V4.4無料体験版" loading="lazy">
+  <div class="card-body">
+    <h2>Z-Ear V4.4無料体験版</h2>
+    <p>無料体験版 — ロジックワークスシリーズ</p>
+    <div class="actions">
+      <a class="btn btn-free" href="https://booth.pm/ja/items/z-ear-v44" target="_blank" rel="noopener">手に入れる</a>
+      <a class="btn btn-note" href="https://note.com/zdna_logic_works/n/dummy" target="_blank" rel="noopener">noteで鍵を入手</a>
+    </div>
+  </div>
+</article>
+<article class="card" id="product-z-md-ver-10">
+  <img src="/assets/icons/z-md-ver-10.png" alt="Z-Md Ver 1.0" loading="lazy">
+  <div class="card-body">
+    <h2>Z-Md Ver 1.0</h2>
+    <p>Markdownロジックエディタ</p>
+    <div class="actions">
+      <a class="btn btn-free" href="https://booth.pm/ja/items/z-md-ver-10" target="_blank" rel="noopener">手に入れる</a>
+      <a class="btn btn-note" href="https://note.com/zdna_logic_works/n/dummy" target="_blank" rel="noopener">noteで鍵を入手</a>
+    </div>
+  </div>
+</article></main>
+  </div>
+</body>
+</html>
